@@ -1,0 +1,8 @@
+What is Python?::Python is a high-level, interpreted programming language.
+Who wrote Hamlet?::William Shakespeare wrote the play “Hamlet”.
+What is the capital of France?::Paris.
+How many continents are there on Earth?::There are seven continents.
+Define AI::AI stands for Artificial Intelligence, the simulation of human intelligence processes by machines.
+When was the Declaration of Independence signed?::July 4, 1776.
+What does HTTP stand for?::HyperText Transfer Protocol.
+What is the result of latest la-liga match between real-madrid and barcelona?::barcelona wins with 4-3 score.Mbappe scored a hattrick.
