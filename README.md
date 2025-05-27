@@ -4,6 +4,8 @@ It is an AI assistant that leverages the Model Context Protocol (MCP) to search 
 
 ---
 
+Here is a video of the bot in action:
+https://www.loom.com/share/eea719e0f6234f5d8677296f0194fc3b?sid=bb79c2b7-7904-4ee4-9fa9-c3d07f88dfda
 ## 🚀 Features
 
 - MCP Integration: Utilizes MCP to standardize communication between AI models and external tools.
