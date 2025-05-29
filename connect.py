@@ -10,7 +10,7 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # Initialize the OpenAI client with OpenRouter base URL
 client = OpenAI(
-    base_url="https://openrouter.ai/api/v1",
+    base_url="http://127.0.0.1:8080/v1",
     api_key=OPENROUTER_API_KEY,
 )
 
@@ -149,7 +149,7 @@ def chat_with_exam_bot():
         # Call OpenAI API with client
         completion = client.chat.completions.create(
            
-            model="openai/gpt-4.1-nano",
+            model="llama3",
             messages=messages,
             tools=available_functions,
             tool_choice="auto"
@@ -188,7 +188,7 @@ def chat_with_exam_bot():
                 #     "HTTP-Referer": "https://example.com",
                 #     "X-Title": "MCP Tool Example",
                 # },
-                model="openai/gpt-4.1-nano",
+                model="llama3",
                 messages=messages,
                 tools=available_functions,
                 tool_choice="none"  # Don't use tools for this response
